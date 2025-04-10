@@ -24,4 +24,7 @@ class Normal(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
         super().__init__(name, hp, "Normal", "Fighting", moves, imgPath)
 
+class Bug(Pokemon):
+    def __init__(self, name, hp, moves, imgPath):
+        super().__init__(name, hp, "BUG", "GRASS", moves, imgPath)
         
