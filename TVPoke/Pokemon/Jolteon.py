@@ -1,12 +1,12 @@
-from TVPoke.BaseClasses.PokeTypes import Water
+from TVPoke.BaseClasses.PokeTypes import Electric
 from TVPoke.BaseClasses.Move import Move
 
-class Jolteon(Water):
+class Jolteon(Electric):
     def __init__(self):
         moves = [
-            Move("Tackle", "NORMAL", 40),
-            Move("Water Gun", "WATER", 40),
-            Move("Surf", "WATER", 80),
-            Move("Splash", "WATER", 0)
+            Move("Double Kick", "ELECTRIC", 40),
+            Move("ElectricGun", "ELECTRIC", 60),
+            Move("Flash Ray", "ELECTRIC", 70),
+            Move("Max Thunder Rumble", "ELECTRIC", 100)
         ]
-        super().__init__("Golduck", 80, moves, "./TVPoke/Pokemon/imgs/Golduck.png")
+        super().__init__("Jolteon", 160, moves, "./TVPoke/Pokemon/imgs/Jolteon.png")
