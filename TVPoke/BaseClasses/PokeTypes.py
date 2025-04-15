@@ -18,8 +18,8 @@ class Fire(Pokemon):
 
 class Electric(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
-        super().__init__(name, hp, "ELECTRIC", "GROUND", moves, imgPath)
-
+        super().__init__(name, hp, "ELECTRIC", "GROUND", moves, imgPat
+                         
 class Normal(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
         super().__init__(name, hp, "NORMAL", "FIGHTING", moves, imgPath)
@@ -28,9 +28,6 @@ class Fighting(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
         super().__init__(name, hp, "FIGHTING", "PSYCHIC", moves, imgPath)
 
-class Dark(Pokemon):
-    def __init__(self, name, hp, moves, imgPath):
-        super().__init__(name, hp, "DARK", "FAIRY", moves, imgPath)
 
 class Fairy(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
@@ -60,14 +57,19 @@ class Steel(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
         super().__init__(name, hp, "STEEL", "FIRE", moves, imgPath)
 
+class Flying(Pokemon):
+    def __init__(self, name, hp, moves, imgPath):
+        super().__init__(name, hp, "FLYING", "ELECTRIC", moves, imgPath)
+
 class Ghost(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
         super().__init__(name, hp, "GHOST", "DARK", moves, imgPath)
 
-class Flying(Pokemon):
-    def __init__(self, name, hp, moves, imgPath):
-        super().__init__(name, hp, "FLYING", "ICE", moves, imgPath)
-
 class Bug(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
         super().__init__(name, hp, "BUG", "FLYING", moves, imgPath)
+
+class Dark(Pokemon):
+    def __init__(self, name, hp, moves, imgPath):
+        super().__init__(name, hp, "DARK", "GHOST", moves, imgPath)
+
